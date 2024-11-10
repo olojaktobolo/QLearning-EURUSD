@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "qlearning"
+version = "0.1.0"
+description = ""
+authors = ["Oliver <oliverhoffmann2@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ipykernel = "^6.29.5"
+jupyter = "^1.1.1"
+notebook = "^7.2.2"
+pandas = "^2.2.3"
+ta = "^0.11.0"
+stable-baselines3 = "^2.3.2"
+gym = "^0.26.2"
+tensorflow = "^2.18.0"
+gymnasium = "^1.0.0"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+torchaudio = "^2.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
