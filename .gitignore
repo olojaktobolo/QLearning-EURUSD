@@ -1,0 +1,15 @@
+# Trained models and training artifacts (large binaries — do not commit)
+models/
+logs/
+tensorboard_logs/
+trading_results.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
